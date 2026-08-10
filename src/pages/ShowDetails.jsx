@@ -196,6 +196,7 @@ export default function ShowDetails() {
               <span className="block text-gray-500 text-sm mb-1">Network</span>
               <span className="font-medium">{show.network?.name || show.webChannel?.name || 'Unknown'}</span>
             </div>
+          </div>
 
           {/* Episodes Section */}
           <div className="mb-8">
