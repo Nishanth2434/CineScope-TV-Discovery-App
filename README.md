@@ -140,31 +140,31 @@ CineScope was designed to hit maximum Lighthouse scores:
 <details>
 <summary><b>Home Page</b> (Click to expand)</summary>
 <br>
-<!-- Drop Home Page screenshot here -->
+![Home Page](./screenshots/HOME.png.png)
 </details>
 
 <details>
 <summary><b>Search & Browse</b> (Click to expand)</summary>
 <br>
-<!-- Drop Shows Page screenshot here -->
+![Search & Browse](./screenshots/browse.png.png)
 </details>
 
 <details>
 <summary><b>Show Details</b> (Click to expand)</summary>
 <br>
-<!-- Drop Show Details screenshot here -->
+![Show Details](./screenshots/movie.png.png)
 </details>
 
 <details>
 <summary><b>Favorites Watchlist</b> (Click to expand)</summary>
 <br>
-<!-- Drop Favorites screenshot here -->
+![Favorites Watchlist](./screenshots/favorites.png.png)
 </details>
 
 <details>
-<summary><b>Mobile Viewport</b> (Click to expand)</summary>
+<summary><b>About Page</b> (Click to expand)</summary>
 <br>
-<!-- Drop Mobile View screenshot here -->
+![About Page](./screenshots/about.png.png)
 </details>
 
 ---
