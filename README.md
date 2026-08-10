@@ -1,59 +1,163 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/film.svg" alt="CineScope Logo" width="80" height="80">
-  
-  # 🎬 CineScope
-  
-  **Discover your next favorite show.**
-  
-  CineScope is a premium, responsive, and highly accessible TV show discovery application built with modern React. It provides users with a seamless interface to explore thousands of shows, view detailed episode guides, and curate personal watchlists—all entirely client-side.
 
-  [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-  [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  [![TVMaze API](https://img.shields.io/badge/TVMaze_API-3C948B?style=for-the-badge&logo=data&logoColor=white)](https://www.tvmaze.com/api)
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/film.svg" alt="CineScope logo" width="120" />
 
-  🔗 **[Live Demo](add-deployed-url-here)** &nbsp;&middot;&nbsp; 🔗 **[Repository](add-github-url-here)**
+# 🎬 CineScope
+
+### Discover your next favorite show — a responsive, client-side TV show discovery app.
+
+<br/>
+
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-2563EB?style=for-the-badge&logoColor=white)](add-deployed-url-here)
+[![Stars](https://img.shields.io/github/stars/Nishanth2434/CineScope-TV-Discovery-App?style=for-the-badge&color=F59E0B)](https://github.com/Nishanth2434/CineScope-TV-Discovery-App/stargazers)
+[![Version](https://img.shields.io/badge/Version-1.0.0-6366F1?style=for-the-badge)](https://github.com/Nishanth2434/CineScope-TV-Discovery-App/releases)
+
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![TVMaze API](https://img.shields.io/badge/TVMaze_API-3C948B?style=flat-square&logo=data&logoColor=white)](https://www.tvmaze.com/api)
+
 </div>
 
-<br />
+---
+
+## 🌐 Live Demo
+
+<div align="center">
+
+### Try the live website here 👇
+
+<a href="add-deployed-url-here">
+  <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-Live_Demo-2563EB?style=for-the-badge&logoColor=white" alt="Live Website" height="52" />
+</a>
+
+<br/><br/>
+
+| Area                   | URL                                                  |
+| :--------------------- | :--------------------------------------------------- |
+| 🎬 CineScope App       | [add-deployed-url-here](add-deployed-url-here)       |
+| 🐙 GitHub Repository   | https://github.com/Nishanth2434/CineScope-TV-Discovery-App |
+
+</div>
 
 ---
 
-## ✨ Key Features
+## 📸 A Look Inside — CineScope
 
-- 🔍 **Debounced Search**: Lightning-fast, intelligent search (300-500ms delay) that avoids unnecessary API calls and layout thrashing.
-- 📺 **Comprehensive Details**: View rich show profiles including ratings, genres, languages, runtime, sanitized descriptions, and a full episode guide.
-- ❤️ **Persistent Favorites**: Curate your ultimate watchlist. Favorites are saved directly to `localStorage`, requiring zero login or backend setup.
-- 🛑 **Intelligent Cancellations**: Powered by `AbortController`, stale network requests are automatically cancelled to ensure your UI never displays outdated data.
-- 🛡️ **Robust Error Handling**: Wrapped in a custom Error Boundary. Features dedicated loading skeletons, empty states, and friendly retry actions. No white screens of death here!
-- 📱 **Flawlessly Responsive**: Carefully crafted CSS Grid layouts ensure the app looks stunning from a 320px mobile screen up to ultra-wide desktop monitors.
+<div align="center">
+
+<b>🏠 Home — featured shows and quick search</b>
+
+<img src="./screenshots/HOME.png.png" alt="CineScope home page" width="100%" />
+
+</div>
+
+<table>
+  <tr>
+    <td width="50%"><b>🔍 Search & Browse Shows</b><br/><img src="./screenshots/browse.png.png" alt="Browse Shows page" /></td>
+    <td width="50%"><b>❤️ Favorites Watchlist</b><br/><img src="./screenshots/favorites.png.png" alt="Favorites page" /></td>
+  </tr>
+</table>
+
+<div align="center">
+
+<b>📺 Show Details — comprehensive info, rating, and episode list</b>
+
+<img src="./screenshots/movie.png.png" alt="Show Details page" width="100%" />
+
+</div>
+
+<table>
+  <tr>
+    <td width="50%"><b>ℹ️ About the Project</b><br/><img src="./screenshots/about.png.png" alt="About page" /></td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## ✨ Features
 
-CineScope was built with a focus on simplicity, speed, and modern web standards:
+<table>
+  <tr>
+    <td width="33%">
+      <h3>🔍 Debounced Search</h3>
+      Lightning-fast, intelligent search (300-500ms delay) that avoids unnecessary API calls and layout thrashing.
+    </td>
+    <td width="33%">
+      <h3>📺 Comprehensive Details</h3>
+      View rich show profiles including ratings, genres, languages, runtime, sanitized descriptions, and a full episode guide.
+    </td>
+    <td width="33%">
+      <h3>❤️ Persistent Favorites</h3>
+      Curate your ultimate watchlist. Favorites are saved directly to <code>localStorage</code>, requiring zero login or backend setup.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>🛑 Request Cancellations</h3>
+      Powered by <code>AbortController</code>, stale network requests are automatically cancelled to ensure your UI never displays outdated data.
+    </td>
+    <td>
+      <h3>🛡️ Robust Error Handling</h3>
+      Wrapped in a custom Error Boundary. Features dedicated loading skeletons, empty states, and friendly retry actions. No white screens!
+    </td>
+    <td>
+      <h3>📱 Responsive Design</h3>
+      Mobile-first layouts — carefully crafted CSS Grid layouts ensure the app looks stunning from 320px mobile screens up to desktop.
+    </td>
+  </tr>
+</table>
 
-- **Frontend Core**: React 19 + Vite (Blazing fast HMR and optimized builds)
-- **Routing**: React Router DOM v7 (Client-side routing)
-- **Styling**: Tailwind CSS v4 (Utility-first, dark-mode native design)
-- **Icons**: Lucide React
-- **Data Fetching**: Native Fetch API (Centralized in a dedicated `services/tvmaze.js` layer)
-- **State & Persistence**: React Hooks + Browser `localStorage` (No Redux needed)
+<details>
+<summary><b>🤖 Accessibility & Performance Extras</b></summary>
 
-> **Note on Architecture:** By centralizing all API calls into a dedicated service layer rather than scattering `fetch` calls across components, the app remains scalable, easily testable, and highly maintainable.
+- **Focus Management** — Focus automatically moves to the `<h1>` tag upon route changes, aiding screen reader navigation.
+- **Semantic HTML** — Strict adherence to semantic elements (`<nav>`, `<main>`, `<section>`, `<footer>`).
+- **Zero Layout Shifts (CLS)** — Custom Loading Skeletons precisely match the dimensions of the final content, ensuring a perfectly stable UI during data fetching.
+- **Optimized Images** — Images below the fold utilize `loading="lazy"` with strict `aspect-ratio` containers.
+
+</details>
 
 ---
 
-## 📡 API Integration
+## 🧰 Tech Stack
 
-Powered by the free and public **[TVMaze API](https://www.tvmaze.com/api)**.
+| Layer               | Technology                                                |
+| :------------------ | :-------------------------------------------------------- |
+| **Frontend**        | React 19 + Vite                                           |
+| **Routing**         | React Router DOM v7                                       |
+| **Styling**         | Tailwind CSS v4                                           |
+| **Data Fetching**   | Fetch API (`src/services/tvmaze.js`)                      |
+| **State Storage**   | Browser `localStorage`                                    |
+| **Icons**           | Lucide React                                              |
+| **HTML Sanitizer**  | DOMPurify                                                 |
+| **Data Provider**   | TVMaze API (Public, no auth required)                     |
 
-| Feature | Endpoint | Description |
-| :--- | :--- | :--- |
-| **List Shows** | `GET /shows` | Fetches the initial trending shows for the Home page. |
-| **Search** | `GET /search/shows?q={query}` | Powers the global search bar. |
-| **Details** | `GET /shows/{id}?embed=episodes` | Fetches core metadata and episodes in a single network trip. |
+---
+
+## 🏗️ Architecture
+
+CineScope was built with a focus on simplicity, speed, and modern web standards. By centralizing all API calls into a dedicated service layer rather than scattering `fetch` calls across components, the app remains scalable, easily testable, and highly maintainable.
+
+```text
+React Components (Pages & Layout)
+        ↓
+Custom Hooks (useDebounce, useFavorites)
+        ↓
+Service Layer (services/tvmaze.js)
+        ↓
+External API (TVMaze)
+```
+
+```mermaid
+flowchart TD
+    U[User Browser] --> FE[React + React Router]
+    FE --> API_Layer[TVMaze Service Layer]
+    FE --> Storage[(localStorage)]
+    API_Layer --> External_API[TVMaze Public API]
+    External_API --> API_Layer
+    Storage --> FE
+```
 
 ---
 
@@ -104,68 +208,6 @@ To create a production-ready build:
 npm run build
 npm run preview
 ```
-
----
-
-## ♿ Accessibility (a11y)
-
-Building an inclusive web experience was a top priority:
-- **Semantic HTML**: Strict adherence to semantic elements (`<nav>`, `<main>`, `<section>`, `<footer>`).
-- **Focus Management**: Focus automatically moves to the `<h1>` tag upon route changes, aiding screen reader navigation.
-- **Keyboard Operability**: Visible focus rings on all interactive elements. Buttons are true `<button>` tags, not clickable `<div>`s.
-- **Aria Labels**: Proper `aria-labels` are applied to icon-only controls (e.g., the Favorite heart icon).
-
----
-
-## ⚡ Performance Optimization
-
-CineScope was designed to hit maximum Lighthouse scores:
-- **Zero Layout Shifts (CLS)**: Custom Loading Skeletons precisely match the dimensions of the final content, ensuring a perfectly stable UI during data fetching.
-- **Optimized Images**: Images below the fold utilize `loading="lazy"` with strict `aspect-ratio` containers.
-- **Network Efficiency**: The combination of `useDebounce` and `AbortController` drastically reduces redundant network traffic.
-
-### Lighthouse Scores (Mobile Throttling)
-*(Run `npx lighthouse <url> --preset=desktop` to verify)*
-
-| Performance | Accessibility | Best Practices | SEO |
-| :---: | :---: | :---: | :---: |
-| 🟢 **95+** | 🟢 **100** | 🟢 **100** | 🟢 **100** |
-
----
-
-## 📸 Screenshots
-
-*(Drag and drop your screenshots directly below!)*
-
-<details>
-<summary><b>Home Page</b> (Click to expand)</summary>
-<br>
-<img src="./screenshots/HOME.png.png" alt="Home Page" width="100%">
-</details>
-
-<details>
-<summary><b>Search & Browse</b> (Click to expand)</summary>
-<br>
-<img src="./screenshots/browse.png.png" alt="Search & Browse" width="100%">
-</details>
-
-<details>
-<summary><b>Show Details</b> (Click to expand)</summary>
-<br>
-<img src="./screenshots/movie.png.png" alt="Show Details" width="100%">
-</details>
-
-<details>
-<summary><b>Favorites Watchlist</b> (Click to expand)</summary>
-<br>
-<img src="./screenshots/favorites.png.png" alt="Favorites Watchlist" width="100%">
-</details>
-
-<details>
-<summary><b>About Page</b> (Click to expand)</summary>
-<br>
-<img src="./screenshots/about.png.png" alt="About Page" width="100%">
-</details>
 
 ---
 
