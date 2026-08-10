@@ -57,14 +57,22 @@ All routes support direct URL access, page refresh, and browser back/forward nav
 
 ```text
 src/
-  components/  Navbar, Footer, ShowCard, ShowGrid, SearchBar, FavoriteButton, LoadingSkeleton, ErrorMessage, EmptyState, ErrorBoundary
-  pages/       Home, Shows, ShowDetails, Favorites, About, NotFound
-  services/    tvmaze.js — all TVMaze API calls
-  hooks/       useDebounce.js, useFavorites.js
-  utils/       helpers.js — includes HTML summary sanitizer
-  styles/      index.css
-  App.jsx
-  main.jsx
+├── components/
+│   ├── Navbar, Footer, ShowCard, ShowGrid
+│   ├── SearchBar, FavoriteButton
+│   └── LoadingSkeleton, ErrorMessage, EmptyState, ErrorBoundary
+├── pages/
+│   └── Home, Shows, ShowDetails, Favorites, About, NotFound
+├── services/
+│   └── tvmaze.js (all TVMaze API calls)
+├── hooks/
+│   └── useDebounce.js, useFavorites.js
+├── utils/
+│   └── helpers.js (includes HTML summary sanitizer)
+├── styles/
+│   └── index.css
+├── App.jsx
+└── main.jsx
 ```
 
 ## Installation & Running Locally
@@ -137,7 +145,22 @@ Every search and detail fetch is issued with an `AbortController`. If the user t
 
 ## Screenshots
 
-*(Add screenshots or a short GIF of: Home, Shows/Search, Show Details, Favorites, and the mobile view here once provided)*
+*(Drag and drop your screenshots below!)*
+
+**Home Page**
+<!-- Drop Home Page screenshot here -->
+
+**Search & Browse Shows**
+<!-- Drop Shows Page screenshot here -->
+
+**Show Details**
+<!-- Drop Show Details screenshot here -->
+
+**Favorites**
+<!-- Drop Favorites screenshot here -->
+
+**Mobile View**
+<!-- Drop Mobile View screenshot here -->
 
 ---
 Built with [TVMaze API](https://www.tvmaze.com/api). Not affiliated with TVMaze.
