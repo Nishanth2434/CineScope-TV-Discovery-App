@@ -196,20 +196,6 @@ export default function ShowDetails() {
               <span className="block text-gray-500 text-sm mb-1">Network</span>
               <span className="font-medium">{show.network?.name || show.webChannel?.name || 'Unknown'}</span>
             </div>
-            {show.officialSite && (
-              <div className="col-span-2 pt-4 mt-4 border-t border-gray-800">
-                <a 
-                  href={show.officialSite} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-primary hover:text-primary-hover font-medium transition-colors"
-                >
-                  <Globe size={18} />
-                  Visit Official Site
-                </a>
-              </div>
-            )}
-          </div>
 
           {/* Episodes Section */}
           <div className="mb-8">
