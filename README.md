@@ -8,7 +8,7 @@
 
 <br/>
 
-[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-2563EB?style=for-the-badge&logoColor=white)](add-deployed-url-here)
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-2563EB?style=for-the-badge&logoColor=white)](https://cine-scope-tan.vercel.app/)
 [![Stars](https://img.shields.io/github/stars/Nishanth2434/CineScope-TV-Discovery-App?style=for-the-badge&color=F59E0B)](https://github.com/Nishanth2434/CineScope-TV-Discovery-App/stargazers)
 [![Version](https://img.shields.io/badge/Version-1.0.0-6366F1?style=for-the-badge)](https://github.com/Nishanth2434/CineScope-TV-Discovery-App/releases)
 
@@ -27,7 +27,7 @@
 
 ### Try the live website here 👇
 
-<a href="add-deployed-url-here">
+<a href="https://cine-scope-tan.vercel.app/">
   <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-Live_Demo-2563EB?style=for-the-badge&logoColor=white" alt="Live Website" height="52" />
 </a>
 
@@ -35,7 +35,7 @@
 
 | Area                   | URL                                                  |
 | :--------------------- | :--------------------------------------------------- |
-| 🎬 CineScope App       | [add-deployed-url-here](add-deployed-url-here)       |
+| 🎬 CineScope App       | [https://cine-scope-tan.vercel.app/](https://cine-scope-tan.vercel.app/)       |
 | 🐙 GitHub Repository   | https://github.com/Nishanth2434/CineScope-TV-Discovery-App |
 
 </div>
